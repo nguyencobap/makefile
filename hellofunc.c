@@ -6,7 +6,7 @@ void myPrint(void){
 		printf("%d ",i);
 		if(i==49){
 			printf("LMAO");
-			printf("ok");
+			printf("11111");
 		}
 	}
 }
