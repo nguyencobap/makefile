@@ -1,5 +1,10 @@
 CC=gcc
-CFLAGS=-I.
+SL= -I ./project
+app: main.o
+	$(CC) main.o -o app $(SL)
+main.o: main.c func1.h func2.h
+	$(CC) -c main.c $(SL)
 
-hellomake: hellomake.c hellofunc.c
-	$(CC) -o hellomake hellomake.c hellofunc.c -I.
+clean:
+	rm -f *.o
+	rm app

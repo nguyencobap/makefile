@@ -1,5 +1,0 @@
-/*
-ex
-*/
-
-void myPrint(void);

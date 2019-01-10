@@ -1,4 +1,4 @@
-#include <hellomake.h>
+#include "func1.h"
 
 int main(){
 	myPrint();
