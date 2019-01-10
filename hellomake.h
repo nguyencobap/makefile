@@ -1,0 +1,5 @@
+/*
+ex
+*/
+
+void myPrint(void);
